@@ -51,7 +51,7 @@ const Home: React.FC = () => {
     newDiv.style.position = "absolute";
     newDiv.style.left = `${x + 50}px`;
     newDiv.style.top = `${y}px`;
-    newDiv.style.color = score == "+1" ? "#58E1E2" : "#58E1E2";
+    newDiv.style.color = score == "+1" ? "#fff" : "#fff";
     newDiv.className =
       "dynamic-div animate-fadeouttopright transform max-sm:text-3xl text-5xl font-bold transition not-selectable";
 
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
           className={`relative bg-[url('/image/coin.jpg')] rounded-full bg-cover w-[400px] h-[400px] max-sm:w-[280px] max-sm:h-[280px] z-10 ${remainedEnergy > 0
             ? "cursor-pointer"
             : "cursor-not-allowed opacity-50"
-            } ${imgStatus && "scale-110"} transition-all duration-300 opacity-50`}
+            } ${imgStatus && "scale-110"} transition-all duration-300`}
           ref={bodyRef}
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseLeave}
