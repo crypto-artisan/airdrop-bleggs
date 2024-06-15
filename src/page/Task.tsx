@@ -7,25 +7,25 @@ import ProgressBar from "../component/ProgressBar";
 const data = [
   {
     "id": "twitter",
-    "title": "Follow X",
+    "title": "Follow BLEGGS's X",
     "img": "image/twitter.svg",
     "points": 100,
-    "link": "https://x.com/FydeTreasury"
+    "link": "https://x.com/BLEGGSToken"
   },
   ,
   {
     "id": "telegram",
-    "title": "Join TG Channel",
+    "title": "Join BLEGGS's TG Channel",
     "img": "image/telegram.png",
     "points": 100,
-    "link": "https://t.me/fydetreasuryprotocolofficial"
+    "link": "https://t.me/bleggs"
   },
   {
     "id": "discord",
-    "title": "Join Discord",
+    "title": "Join BLEGGS's Discord",
     "img": "image/discord.svg",
     "points": 100,
-    "link": "https://discord.gg/fyde-treasury-protocol-1173642434379526144"
+    "link": "https://discord.gg/bleggs"
   },
   // {
   //   "id": "fyde",
@@ -36,17 +36,17 @@ const data = [
   // },
   {
     "id": "linkedin",
-    "title": "Follow Linkedin",
+    "title": "Follow BLEGGS's Linkedin",
     "img": "image/linkedin.svg",
     "points": 100,
-    "link": "https://www.linkedin.com/company/80446952/admin/feed/posts/"
+    "link": "https://www.linkedin.com/company/"
   },
   {
     "id": "medium",
-    "title": "Follow Medium",
+    "title": "Follow BLEGGS's Medium",
     "img": "image/medium.png",
     "points": 100,
-    "link": "https://medium.com/@fydetreasury"
+    "link": "https://medium.com/@bleggs"
   }
 ];
 

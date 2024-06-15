@@ -25,7 +25,7 @@ function App() {
     loading ? (
       <Loading />
     ) : (
-      <div className="h-full max-h-screen overflow-hidden md:px-[30%] py-2">
+      <div className="h-full max-h-screen overflow-hidden md:px-[30%] py-2 px-4">
         <Header />
         <div className="h-screen overflow-hidden pb-[150px] px-4 dM-Sans">
           <ReduxProvider store={store}>
